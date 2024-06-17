@@ -10,7 +10,7 @@ import com.ty.jsp_application_eb8_prc.dto.User;
 public class UserDao {
 
 	public EntityManager getEntityManager() {
-		return Persistence.createEntityManagerFactory("vinod").createEntityManager();
+		return Persistence.createEntityManagerFactory("chaitanya").createEntityManager();
 	}
 
 	public Object saveUser(User user) {
