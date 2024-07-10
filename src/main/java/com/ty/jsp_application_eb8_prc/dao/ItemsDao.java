@@ -12,7 +12,7 @@ import com.ty.jsp_application_eb8_prc.dto.Items;
 public class ItemsDao {
 
 	public EntityManager getEntityManager() {
-		return Persistence.createEntityManagerFactory("vinod").createEntityManager();
+		return Persistence.createEntityManagerFactory("chaitanya").createEntityManager();
 	}
 
 	public Items saveItems(Items items) {
